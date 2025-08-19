@@ -16,7 +16,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "THREE O'CLOCK - Câu Chuyện Mùa Trăng",
+  title: "THREE O&apos;CLOCK - Câu Chuyện Mùa Trăng",
   description: "Một ly trà thơm, thêm mùa trăng",
   generator: "v0.app",
 };

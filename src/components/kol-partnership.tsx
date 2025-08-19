@@ -7,7 +7,7 @@ export function KOLPartnership() {
 
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold text-center text-gray-800 mb-2 font-sans">
-          THREE O'CLOCK ĐỒNG HÀNH CÙNG
+          THREE O&apos;CLOCK ĐỒNG HÀNH CÙNG
         </h2>
         <div className="w-32 h-0.5 bg-gray-800 mx-auto mb-12"></div>
 
@@ -36,11 +36,11 @@ export function KOLPartnership() {
             </p>
 
             <p className="text-gray-700 leading-relaxed font-sans">
-              Cùng <strong>THREE O'CLOCK</strong>, Đại sứ sẽ trực tiếp tham gia
-              các hoạt động thiện nguyện, đồng hành trong hành trình trao gửi
-              những phần quà Trung thu đến các em nhỏ và kể lại những câu chuyện
-              phía sau mỗi chiếc bánh được trao đi – những câu chuyện giản dị
-              nhưng đủ sức lay động lòng người.
+              Cùng <strong>THREE O&apos;CLOCK</strong>, Đại sứ sẽ trực tiếp tham
+              gia các hoạt động thiện nguyện, đồng hành trong hành trình trao
+              gửi những phần quà Trung thu đến các em nhỏ và kể lại những câu
+              chuyện phía sau mỗi chiếc bánh được trao đi – những câu chuyện
+              giản dị nhưng đủ sức lay động lòng người.
             </p>
 
             {/* KOL buttons */}

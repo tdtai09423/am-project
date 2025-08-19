@@ -1,32 +1,31 @@
 export function CircularHeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-4 py-12 bg-gradient-to-br from-orange-50 via-amber-50 to-yellow-50">
-      {/* Large circular background matching Figma design */}
-      <div className="relative w-full max-w-6xl aspect-square">
+    <section className="relative min-h-screen flex items-center justify-center px-4 py-12 bg-gradient-to-br from-orange-100 via-amber-100 to-yellow-100 overflow-hidden">
+      <div className="relative w-[120vw] h-[120vw] max-w-none aspect-square">
         {/* Golden arc border at top */}
-        <div className="absolute top-8 left-1/2 transform -translate-x-1/2 w-80 h-40 border-t-4 border-l-4 border-r-4 border-orange-300 rounded-t-full opacity-60"></div>
+        <div className="absolute top-8 left-1/2 transform -translate-x-1/2 w-80 h-40 border-t-4 border-l-4 border-r-4 border-orange-400 rounded-t-full opacity-70"></div>
 
-        {/* Main circular container with cream background */}
+        {/* Main circular container with smooth gradient transition */}
         <div
-          className="absolute inset-0 rounded-full bg-gradient-to-br from-orange-50 via-amber-25 to-yellow-50 shadow-2xl border border-orange-200/20"
+          className="absolute inset-0 rounded-full shadow-2xl"
           style={{
             background:
-              "radial-gradient(circle at center, #fef7ed 0%, #fef3e2 30%, #fed7aa 100%)",
+              "radial-gradient(circle at center, #fef3e2 0%, #fed7aa 25%, #fdba74 45%, rgba(253, 186, 116, 0.8) 70%, rgba(253, 186, 116, 0.4) 85%, transparent 100%)",
             boxShadow:
-              "inset 0 0 100px rgba(251, 191, 36, 0.1), 0 20px 60px rgba(0, 0, 0, 0.1)",
+              "inset 0 0 120px rgba(251, 191, 36, 0.15), 0 20px 60px rgba(0, 0, 0, 0.1)",
           }}
         >
           {/* Decorative stars scattered around */}
-          <div className="absolute top-20 left-20 text-orange-300 text-xs">
+          <div className="absolute top-20 left-20 text-orange-400 text-xs">
             ✦
           </div>
-          <div className="absolute top-32 right-24 text-orange-300 text-xs">
+          <div className="absolute top-32 right-24 text-orange-400 text-xs">
             ✦
           </div>
-          <div className="absolute bottom-40 left-16 text-orange-300 text-xs">
+          <div className="absolute bottom-40 left-16 text-orange-400 text-xs">
             ✦
           </div>
-          <div className="absolute bottom-24 right-20 text-orange-300 text-xs">
+          <div className="absolute bottom-24 right-20 text-orange-400 text-xs">
             ✦
           </div>
 
@@ -34,7 +33,7 @@ export function CircularHeroSection() {
           <div className="absolute inset-12 flex flex-col items-center justify-center text-center space-y-8">
             <div className="mb-6">
               <h1
-                className="font-serif text-5xl md:text-6xl text-amber-800 font-light tracking-wider"
+                className="font-serif text-5xl md:text-6xl text-amber-900 font-light tracking-wider"
                 style={{
                   fontFamily: "Dancing Script, cursive",
                   fontStyle: "italic",
@@ -82,19 +81,20 @@ export function CircularHeroSection() {
               </p>
 
               <p className="text-justify">
-                Chiến dịch <strong>"Ấm"</strong> là chiến dịch thiện nguyện
-                thường niên của <strong>THREE O'CLOCK</strong> phát động gây quỹ
-                cho Tết Trung thu nhằm gây quỹ để tặng quà cho các em có hoàn
-                cảnh khó khăn. Từ năm 2020 đến nay, chiến dịch đã thu hút được
-                sự quan tâm, ủng hộ gây quỹ từ hàng nghìn bạn trẻ và những tấm
-                lòng hảo tâm với số tiền lên đến hàng trăm triệu đồng.
+                Chiến dịch <strong>&quot;Ấm&quot;</strong> là chiến dịch thiện
+                nguyện thường niên của <strong>THREE O&apos;CLOCK</strong> phát
+                động gây quỹ cho Tết Trung thu nhằm gây quỹ để tặng quà cho các
+                em có hoàn cảnh khó khăn. Từ năm 2020 đến nay, chiến dịch đã thu
+                hút được sự quan tâm, ủng hộ gây quỹ từ hàng nghìn bạn trẻ và
+                những tấm lòng hảo tâm với số tiền lên đến hàng trăm triệu đồng.
               </p>
 
               <p className="text-justify">
-                Trong hành trình <strong>"Ấm 5"</strong> năm nay, chúng tôi hy
-                vọng điều tốt lành chúng con mơi tâm lòng, có tình mơi ngữ, ứng
-                của chuyện về những lòng của khác gọi khích, học quyên để gọp
-                hơn mơi mùa trăng có đây, hạn yêu yêu thương cho các em.
+                Trong hành trình <strong>&quot;Ấm 5&quot;</strong> năm nay,
+                chúng tôi hy vọng điều tốt lành chúng con mơi tâm lòng, có tình
+                mơi ngữ, ứng của chuyện về những lòng của khác gọi khích, học
+                quyên để gọp hơn mơi mùa trăng có đây, hạn yêu yêu thương cho
+                các em.
               </p>
             </div>
           </div>

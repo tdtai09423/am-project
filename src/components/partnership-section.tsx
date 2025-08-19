@@ -36,7 +36,7 @@ export function PartnershipSection() {
             </h3>
 
             <p className="text-gray-700 leading-relaxed font-sans text-base">
-              Three O'clock đồng hành cùng{" "}
+              Three O&apos;clock đồng hành cùng{" "}
               <strong>Bệnh viện Nhi Đồng 1 TP.HCM</strong> để mang đến mỗi đêm
               hội trăng rằm ấm áp cho các em nhỏ đang điều trị. Trong không gian
               chan hòa ánh trăng và tiếng cười, từng phần quà Trung thu được

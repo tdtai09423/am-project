@@ -11,7 +11,7 @@ export default function Footer() {
               <div className="w-12 h-12 bg-black rounded-full flex items-center justify-center">
                 <span className="text-white font-bold text-lg">O</span>
               </div>
-              <span className="font-bold text-lg">THREE O'CLOCK</span>
+              <span className="font-bold text-lg">THREE O&apos;CLOCK</span>
             </div>
 
             <div className="space-y-2 text-sm text-gray-600">
@@ -42,9 +42,9 @@ export default function Footer() {
 
           {/* THREE O'CLOCK */}
           <div className="text-center">
-            <h3 className="font-bold text-lg mb-4">THREE O'CLOCK</h3>
+            <h3 className="font-bold text-lg mb-4">THREE O&apos;CLOCK</h3>
             <p className="text-sm text-gray-600">
-              Tại gian hàng THREE O'CLOCK để đặt và giao hàng
+              Tại gian hàng THREE O&apos;CLOCK để đặt và giao hàng
             </p>
           </div>
 
@@ -60,7 +60,7 @@ export default function Footer() {
 
               <div className="space-y-2">
                 <h4 className="font-semibold text-sm">
-                  THAM GIA MXH CỦA THREE O'CLOCK
+                  THAM GIA MXH CỦA THREE O&apos;CLOCK
                 </h4>
                 <div className="flex space-x-3">
                   <Facebook className="w-5 h-5 text-blue-600" />

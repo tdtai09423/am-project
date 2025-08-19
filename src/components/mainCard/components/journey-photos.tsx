@@ -99,13 +99,14 @@ export function JourneyPhotos() {
             <p className="text-sm md:text-base text-amber-800 leading-relaxed font-sans mb-4">
               Từ những ngày đầu với các mong mong nhỏ của Trung thu đầu tiên,
               chúng tôi đã có thể gây quỹ được nhờ các bạn trẻ khắp Việt Nam.
-              "Ấm" đã trở thành hành trình dài hơi bởi THREE O'CLOCK bám trụ.
+              &quot;Ấm&quot; đã trở thành hành trình dài hơi bởi THREE
+              O&apos;CLOCK bám trụ.
             </p>
             <p className="text-sm md:text-base text-amber-800 leading-relaxed font-sans mb-4">
               Tiếp nối thành công những mùa trước, cùng với mạnh lưới nội bộ
-              cộng đồng THREE O'CLOCK, chúng tôi mong muốn lan tỏa thêm nhiều
-              yêu thương đến với các em nhỏ có hoàn cảnh khó khăn. Từ đó có thể
-              tạo nên những kỷ niệm đẹp trong mùa trăng tròn năm nay.
+              cộng đồng THREE O&apos;CLOCK, chúng tôi mong muốn lan tỏa thêm
+              nhiều yêu thương đến với các em nhỏ có hoàn cảnh khó khăn. Từ đó
+              có thể tạo nên những kỷ niệm đẹp trong mùa trăng tròn năm nay.
             </p>
           </div>
         </div>

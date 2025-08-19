@@ -5,7 +5,7 @@ export default function CooperateWith() {
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="text-2xl font-bold text-black">
-            THREE O'CLOCK ĐỒNG HÀNH CÙNG
+            THREE O&apos;CLOCK ĐỒNG HÀNH CÙNG
           </h2>
           <div className="w-24 h-0.5 bg-gray-300 mx-auto mt-4"></div>
         </div>
@@ -34,8 +34,8 @@ export default function CooperateWith() {
             </p>
 
             <p className="text-gray-700 leading-relaxed">
-              Cùng <span className="font-bold">THREE O'CLOCK</span>, Đại sứ sẽ
-              kể những thâm tình các hoạt động thiện nguyện, đồng hành trong
+              Cùng <span className="font-bold">THREE O&apos;CLOCK</span>, Đại sứ
+              sẽ kể những thâm tình các hoạt động thiện nguyện, đồng hành trong
               hành trình phát giai những phần quà Trung thu đến các em nhỏ và kể
               lại những câu chuyện giản dị nhưng đầy ấm áp trong trao đi – những
               câu chuyện giản dị nhưng đầy sức lay động lòng người.

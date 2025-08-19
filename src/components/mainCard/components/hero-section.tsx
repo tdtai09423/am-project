@@ -58,18 +58,18 @@ export function HeroSection() {
           người.
         </p>
         <p>
-          Chiến dịch "ẤM" là chiến dịch thiện nguyện thường niên của THREE
-          O'CLOCK phát động vào mỗi dịp Tết Trung thu nhằm gây quỹ để trao tặng
-          quà cho trẻ em có hoàn cảnh khó khăn. Trong vòng 3 năm trở lại đây,
-          THREE O'CLOCK đã phát động cũng như góp một phần nào đó để giúp đỡ cho
-          cộng đồng và mong muốn ở các năm tiếp theo sẽ tiếp tục lan truyền
-          thông điệp ý nghĩa này đến với tất cả mọi người.
+          Chiến dịch &quot;ẤM&quot; là chiến dịch thiện nguyện thường niên của
+          THREE O&apos;CLOCK phát động vào mỗi dịp Tết Trung thu nhằm gây quỹ để
+          trao tặng quà cho trẻ em có hoàn cảnh khó khăn. Trong vòng 3 năm trở
+          lại đây, THREE O&apos;CLOCK đã phát động cũng như góp một phần nào đó
+          để giúp đỡ cho cộng đồng và mong muốn ở các năm tiếp theo sẽ tiếp tục
+          lan truyền thông điệp ý nghĩa này đến với tất cả mọi người.
         </p>
         <p>
-          Trong hành trình "Ấm 5" năm nay, ánh trăng trở thành điểm hẹn chung
-          của mọi tấm lòng, nơi từng món quà, từng câu chuyện và những tiếng
-          cười được góp nhặt, hòa quyện để tạo nên một mùa trăng đủ đầy, trọn
-          vẹn yêu thương cho các em.
+          Trong hành trình &quot;Ấm 5&quot; năm nay, ánh trăng trở thành điểm
+          hẹn chung của mọi tấm lòng, nơi từng món quà, từng câu chuyện và những
+          tiếng cười được góp nhặt, hòa quyện để tạo nên một mùa trăng đủ đầy,
+          trọn vẹn yêu thương cho các em.
         </p>
       </div>
     </section>

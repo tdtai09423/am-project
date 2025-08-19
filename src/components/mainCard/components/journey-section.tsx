@@ -27,13 +27,14 @@ export function JourneySection() {
         <div className="text-black text-lg md:text-xl leading-relaxed space-y-4 max-w-2xl mx-auto">
           <p>
             Từ những ngày đầu với ước mong mang một mùa Trung thu ấm áp đến các
-            em nhỏ có hoàn cảnh khó khăn, "Ấm" đã trở thành hành trình đặc biệt
-            mà THREE O'CLOCK bền bỉ viết tiếp suốt 5 năm qua.
+            em nhỏ có hoàn cảnh khó khăn, &quot;Ấm&quot; đã trở thành hành trình
+            đặc biệt mà THREE O&apos;CLOCK bền bỉ viết tiếp suốt 5 năm qua.
           </p>
           <p>
             Tiếp nối thành công từ những mùa trước, cùng sứ mệnh kết nối cộng
-            đồng, THREE O'CLOCK tiếp tục phát động chiến dịch ẤM năm 2025 với
-            mong muốn lan toả thông điệp ý nghĩa này đến thật nhiều người hơn.
+            đồng, THREE O&apos;CLOCK tiếp tục phát động chiến dịch ẤM năm 2025
+            với mong muốn lan toả thông điệp ý nghĩa này đến thật nhiều người
+            hơn.
           </p>
           <p>
             Từ đó có thể góp thêm thật nhiều phần quà cho các em nhỏ, mang đến
