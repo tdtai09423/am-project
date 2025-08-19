@@ -7,13 +7,13 @@ export function JourneyPhotos() {
         <div
           className="absolute left-8 top-16 flex flex-col items-center space-y-2"
           style={{
-            position: "relative",
+            position: "absolute",
             zIndex: 100,
-            top: "-100px",
-            left: "-30%",
+            top: "-300px",
+            left: "-20%",
           }}
         >
-          <div className="relative w-100 h-100 md:w-100 md:h-100 rounded-full overflow-hidden shadow-xl border-4 border-white">
+          <div className="relative w-100 h-100 md:w-130 md:h-130 rounded-full overflow-hidden shadow-xl border-4 border-white">
             <Image
               src="/vietnamese-children-gifts.png"
               alt="Ấm 2020 - Trẻ em nhận quà Trung thu"
@@ -32,11 +32,11 @@ export function JourneyPhotos() {
           style={{
             position: "absolute",
             zIndex: 100,
-            top: "80px",
-            right: "-15%",
+            top: "-130px",
+            right: "-35%",
           }}
         >
-          <div className="relative w-100 h-100 md:w-100 md:h-100 rounded-full overflow-hidden shadow-xl border-4 border-white">
+          <div className="relative w-100 h-100 md:w-110 md:h-110 rounded-full overflow-hidden shadow-xl border-4 border-white">
             <Image
               src="/vietnamese-volunteers-children-mid-autumn.png"
               alt="Ấm 2022 - Tình nguyện viên và trẻ em"
@@ -55,11 +55,11 @@ export function JourneyPhotos() {
           style={{
             position: "absolute",
             zIndex: 100,
-            bottom: "-250px",
-            left: "-15%",
+            bottom: "-380px",
+            left: "-37%",
           }}
         >
-          <div className="relative w-100 h-100 md:w-100 md:h-100 rounded-full overflow-hidden shadow-xl border-4 border-white">
+          <div className="relative w-100 h-100 md:w-120 md:h-120 rounded-full overflow-hidden shadow-xl border-4 border-white">
             <Image
               src="/vietnamese-children-volunteers-2023.png"
               alt="Ấm 2023 - Hoạt động từ thiện"
@@ -78,11 +78,11 @@ export function JourneyPhotos() {
           style={{
             position: "absolute",
             zIndex: 100,
-            bottom: "-150px",
-            right: "-15%",
+            bottom: "-330px",
+            right: "-38%",
           }}
         >
-          <div className="relative w-100 h-100 md:w-100 md:h-100 rounded-full overflow-hidden shadow-xl border-4 border-white">
+          <div className="relative w-100 h-100 md:w-130 md:h-130 rounded-full overflow-hidden shadow-xl border-4 border-white">
             <Image
               src="/vietnamese-charity-2024.png"
               alt="Ấm 2024 - Hoạt động cộng đồng"
@@ -95,23 +95,23 @@ export function JourneyPhotos() {
           </div>
         </div>
 
-        <div className="text-center py-24 px-8">
-          <h3 className="font-serif text-3xl md:text-4xl text-amber-900 font-bold tracking-wide mb-8">
+        <div className="text-center px-8 pt-56 md:pt-72 pb-28">
+          <h3 className="font-serif text-5xl md:text-6xl text-amber-900 font-bold tracking-wide mb-8">
             HÀNH TRÌNH CỦA ẤM
           </h3>
 
           <div className="max-w-2xl mx-auto">
-            <p className="text-sm md:text-base text-amber-800 leading-relaxed font-sans mb-4">
-              Từ những ngày đầu với các mong mong nhỏ của Trung thu đầu tiên,
-              chúng tôi đã có thể gây quỹ được nhờ các bạn trẻ khắp Việt Nam.
-              &quot;Ấm&quot; đã trở thành hành trình dài hơi bởi THREE
-              O&apos;CLOCK bám trụ.
+            <p className="text-lg md:text-xl text-amber-800 leading-relaxed font-sans mb-5">
+              Từ những ngày đầu với ước mong mang một mùa Trung thu ấm áp đến
+              các em nhỏ có hoàn cảnh khó khăn, “Ấm” đã trở thành hành trình đặc
+              biệt mà THREE O&apos;CLOCK bền bỉ viết tiếp suốt 5 năm qua.
             </p>
-            <p className="text-sm md:text-base text-amber-800 leading-relaxed font-sans mb-4">
-              Tiếp nối thành công những mùa trước, cùng với mạnh lưới nội bộ
-              cộng đồng THREE O&apos;CLOCK, chúng tôi mong muốn lan tỏa thêm
-              nhiều yêu thương đến với các em nhỏ có hoàn cảnh khó khăn. Từ đó
-              có thể tạo nên những kỷ niệm đẹp trong mùa trăng tròn năm nay.
+            <p className="text-lg md:text-xl text-amber-800 leading-relaxed font-sans mb-5">
+              Tiếp nối thành công từ những mùa trước, cùng sứ mệnh kết nối cộng
+              đồng, THREE O&apos;CLOCK, tiếp tục phát động chiến dịch ẤM năm
+              2025 với mong muốn lan toả thông điệp ý nghĩa này đến thật nhiều
+              người hơn. Từ đó có thể góp thêm thật nhiều phần quà cho các em
+              nhỏ, mang đến một mùa trăng thật  trọn vẹn.
             </p>
           </div>
         </div>

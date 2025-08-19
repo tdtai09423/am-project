@@ -1,18 +1,12 @@
 export function CircularHeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-4 py-12 bg-gradient-to-br from-orange-100 via-amber-100 to-yellow-100 overflow-hidden">
-      <div className="relative w-[120vw] h-[120vw] max-w-none aspect-square">
-        {/* Golden arc border at top */}
-        <div className="absolute top-8 left-1/2 transform -translate-x-1/2 w-80 h-40 border-t-4 border-l-4 border-r-4 border-orange-400 rounded-t-full opacity-70"></div>
-
-        {/* Main circular container with smooth gradient transition */}
+    <section className="relative min-h-screen flex items-center justify-center px-0 py-0 bg-transparent overflow-hidden">
+      <div className="relative w-[100vw] h-[230vh] md:h-[230vh] max-w-none">
         <div
-          className="absolute inset-0 rounded-full shadow-2xl"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            background:
-              "radial-gradient(circle at center, #fef3e2 0%, #fed7aa 25%, #fdba74 45%, rgba(253, 186, 116, 0.8) 70%, rgba(253, 186, 116, 0.4) 85%, transparent 100%)",
-            boxShadow:
-              "inset 0 0 120px rgba(251, 191, 36, 0.15), 0 20px 60px rgba(0, 0, 0, 0.1)",
+            backgroundImage: "url('/img/moon.svg')",
+            backgroundSize: "100% 110%",
           }}
         >
           {/* Decorative stars scattered around */}
@@ -29,11 +23,10 @@ export function CircularHeroSection() {
             ✦
           </div>
 
-          {/* Inner content container */}
-          <div className="absolute inset-12 flex flex-col items-center justify-center text-center space-y-8">
-            <div className="mb-6">
+          {/* <div className="absolute inset-16 flex flex-col items-center justify-center text-center space-y-6"> */}
+          {/* <div className="mb-4">
               <h1
-                className="font-serif text-5xl md:text-6xl text-amber-900 font-light tracking-wider"
+                className="font-serif text-4xl md:text-5xl text-amber-900 font-light tracking-wider"
                 style={{
                   fontFamily: "Dancing Script, cursive",
                   fontStyle: "italic",
@@ -41,11 +34,11 @@ export function CircularHeroSection() {
               >
                 Ấm
               </h1>
-            </div>
+            </div> */}
 
-            <div className="space-y-1">
+          {/* <div className="space-y-1">
               <h2
-                className="font-serif text-4xl md:text-5xl lg:text-6xl text-amber-900 leading-tight font-light tracking-wide"
+                className="font-serif text-3xl md:text-4xl lg:text-5xl text-amber-900 leading-tight font-light tracking-wide"
                 style={{
                   fontFamily: "Playfair Display, serif",
                   fontStyle: "italic",
@@ -54,7 +47,7 @@ export function CircularHeroSection() {
                 Câu Chuyện
               </h2>
               <h2
-                className="font-serif text-4xl md:text-5xl lg:text-6xl text-amber-900 leading-tight font-light tracking-wide"
+                className="font-serif text-3xl md:text-4xl lg:text-5xl text-amber-900 leading-tight font-light tracking-wide"
                 style={{
                   fontFamily: "Playfair Display, serif",
                   fontStyle: "italic",
@@ -62,16 +55,16 @@ export function CircularHeroSection() {
               >
                 Mùa Trăng
               </h2>
-            </div>
+            </div> */}
 
-            <p
-              className="font-serif text-lg md:text-xl text-amber-800 italic font-light max-w-md tracking-wide"
+          {/* <p
+              className="font-serif text-base md:text-lg text-amber-800 italic font-light max-w-md tracking-wide"
               style={{ fontFamily: "Playfair Display, serif" }}
             >
               Một ly trà thơm, thêm mùa trăng... ấm
-            </p>
+            </p> */}
 
-            <div className="max-w-2xl space-y-5 text-sm md:text-base text-amber-900 leading-relaxed font-sans">
+          {/* <div className="max-w-xl space-y-4 text-xs md:text-sm text-amber-900 leading-relaxed font-sans">
               <p className="text-justify">
                 Trong mùa thu tháng chín gió nhẹ, ánh trăng đầm ấm tâm hồn, mọi
                 con kí tình với cuộc sống bình yên, của ký danh là ra sao vậy.
@@ -81,23 +74,22 @@ export function CircularHeroSection() {
               </p>
 
               <p className="text-justify">
-                Chiến dịch <strong>&quot;Ấm&quot;</strong> là chiến dịch thiện
-                nguyện thường niên của <strong>THREE O&apos;CLOCK</strong> phát
-                động gây quỹ cho Tết Trung thu nhằm gây quỹ để tặng quà cho các
-                em có hoàn cảnh khó khăn. Từ năm 2020 đến nay, chiến dịch đã thu
-                hút được sự quan tâm, ủng hộ gây quỹ từ hàng nghìn bạn trẻ và
-                những tấm lòng hảo tâm với số tiền lên đến hàng trăm triệu đồng.
+                Chiến dịch <strong>"Ấm"</strong> là chiến dịch thiện nguyện
+                thường niên của <strong>THREE O'CLOCK</strong> phát động gây quỹ
+                cho Tết Trung thu nhằm gây quỹ để tặng quà cho các em có hoàn
+                cảnh khó khăn. Từ năm 2020 đến nay, chiến dịch đã thu hút được
+                sự quan tâm, ủng hộ gây quỹ từ hàng nghìn bạn trẻ và những tấm
+                lòng hảo tâm với số tiền lên đến hàng trăm triệu đồng.
               </p>
 
               <p className="text-justify">
-                Trong hành trình <strong>&quot;Ấm 5&quot;</strong> năm nay,
-                chúng tôi hy vọng điều tốt lành chúng con mơi tâm lòng, có tình
-                mơi ngữ, ứng của chuyện về những lòng của khác gọi khích, học
-                quyên để gọp hơn mơi mùa trăng có đây, hạn yêu yêu thương cho
-                các em.
+                Trong hành trình <strong>"Ấm 5"</strong> năm nay, chúng tôi hy
+                vọng điều tốt lành chúng con mơi tâm lòng, có tình mơi ngữ, ứng
+                của chuyện về những lòng của khác gọi khích, học quyên để gọp
+                hơn mơi mùa trăng có đây, hạn yêu yêu thương cho các em.
               </p>
-            </div>
-          </div>
+            </div> */}
+          {/* </div> */}
         </div>
       </div>
     </section>
