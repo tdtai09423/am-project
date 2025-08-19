@@ -1,3 +1,4 @@
+import Image from "next/image";
 export function HeroSection() {
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center px-4 py-8">
@@ -32,11 +33,13 @@ export function HeroSection() {
       </div>
 
       {/* Main image placeholder */}
-      <div className="relative z-10 mb-8">
-        <img
+      <div className="relative z-10 mb-8 w-full max-w-2xl h-auto">
+        <Image
           src="/vietnamese-mid-autumn-charity.png"
           alt="Ấm Campaign Illustration"
-          className="w-full max-w-2xl h-auto rounded-lg shadow-lg"
+          width={1024}
+          height={640}
+          className="w-full h-auto rounded-lg shadow-lg"
         />
       </div>
 

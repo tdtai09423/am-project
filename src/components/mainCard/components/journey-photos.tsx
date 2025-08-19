@@ -1,3 +1,4 @@
+import Image from "next/image";
 export function JourneyPhotos() {
   return (
     <section className="relative -mt-32 px-4 z-10 min-h-[1000px] md:min-h-[1200px]">
@@ -12,11 +13,12 @@ export function JourneyPhotos() {
             left: "-30%",
           }}
         >
-          <div className="w-100 h-100 md:w-100 md:h-100 rounded-full overflow-hidden shadow-xl border-4 border-white">
-            <img
+          <div className="relative w-100 h-100 md:w-100 md:h-100 rounded-full overflow-hidden shadow-xl border-4 border-white">
+            <Image
               src="/vietnamese-children-gifts.png"
               alt="Ấm 2020 - Trẻ em nhận quà Trung thu"
-              className="w-full h-full object-cover"
+              fill
+              className="object-cover"
             />
           </div>
           <div className="font-serif text-lg md:text-xl text-amber-900 font-semibold">
@@ -34,11 +36,12 @@ export function JourneyPhotos() {
             right: "-15%",
           }}
         >
-          <div className="w-100 h-100 md:w-100 md:h-100 rounded-full overflow-hidden shadow-xl border-4 border-white">
-            <img
+          <div className="relative w-100 h-100 md:w-100 md:h-100 rounded-full overflow-hidden shadow-xl border-4 border-white">
+            <Image
               src="/vietnamese-volunteers-children-mid-autumn.png"
               alt="Ấm 2022 - Tình nguyện viên và trẻ em"
-              className="w-full h-full object-cover"
+              fill
+              className="object-cover"
             />
           </div>
           <div className="font-serif text-lg md:text-xl text-amber-900 font-semibold">
@@ -56,11 +59,12 @@ export function JourneyPhotos() {
             left: "-15%",
           }}
         >
-          <div className="w-100 h-100 md:w-100 md:h-100 rounded-full overflow-hidden shadow-xl border-4 border-white">
-            <img
+          <div className="relative w-100 h-100 md:w-100 md:h-100 rounded-full overflow-hidden shadow-xl border-4 border-white">
+            <Image
               src="/vietnamese-children-volunteers-2023.png"
               alt="Ấm 2023 - Hoạt động từ thiện"
-              className="w-full h-full object-cover"
+              fill
+              className="object-cover"
             />
           </div>
           <div className="font-serif text-lg text-amber-900 font-semibold">
@@ -78,11 +82,12 @@ export function JourneyPhotos() {
             right: "-15%",
           }}
         >
-          <div className="w-100 h-100 md:w-100 md:h-100 rounded-full overflow-hidden shadow-xl border-4 border-white">
-            <img
+          <div className="relative w-100 h-100 md:w-100 md:h-100 rounded-full overflow-hidden shadow-xl border-4 border-white">
+            <Image
               src="/vietnamese-charity-2024.png"
               alt="Ấm 2024 - Hoạt động cộng đồng"
-              className="w-full h-full object-cover"
+              fill
+              className="object-cover"
             />
           </div>
           <div className="font-serif text-lg text-amber-900 font-semibold">

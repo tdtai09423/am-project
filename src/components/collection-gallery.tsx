@@ -1,3 +1,4 @@
+import Image from "next/image";
 export function CollectionGallery() {
   return (
     <section className="py-16 px-4 bg-gradient-to-br from-amber-50 to-orange-100 relative">
@@ -14,38 +15,42 @@ export function CollectionGallery() {
         {/* Photo grid layout matching the reference */}
         <div className="grid grid-cols-2 gap-4 max-w-4xl mx-auto">
           {/* Top left - Group photo */}
-          <div className="rounded-3xl overflow-hidden shadow-lg">
-            <img
+          <div className="relative h-64 rounded-3xl overflow-hidden shadow-lg">
+            <Image
               src="/mid-autumn-festival-vietnam.png"
               alt="Nhóm tình nguyện viên và trẻ em tại lễ hội Trung thu"
-              className="w-full h-64 object-cover"
+              fill
+              className="object-cover"
             />
           </div>
 
           {/* Top right - Paper cranes in boxes */}
-          <div className="rounded-3xl overflow-hidden shadow-lg">
-            <img
+          <div className="relative h-64 rounded-3xl overflow-hidden shadow-lg">
+            <Image
               src="/colorful-origami-donation.png"
               alt="Hạc giấy đầy màu sắc trong hộp từ thiện"
-              className="w-full h-64 object-cover"
+              fill
+              className="object-cover"
             />
           </div>
 
           {/* Bottom left - ẤM branded boxes */}
-          <div className="rounded-3xl overflow-hidden shadow-lg">
-            <img
+          <div className="relative h-64 rounded-3xl overflow-hidden shadow-lg">
+            <Image
               src="/am-3-mid-autumn-packages.png"
               alt="Hộp quà ẤM 3 cho chương trình từ thiện"
-              className="w-full h-64 object-cover"
+              fill
+              className="object-cover"
             />
           </div>
 
           {/* Bottom right - More colorful items */}
-          <div className="rounded-3xl overflow-hidden shadow-lg">
-            <img
+          <div className="relative h-64 rounded-3xl overflow-hidden shadow-lg">
+            <Image
               src="/vietnamese-mid-autumn-crafts.png"
               alt="Đồ thủ công giấy đầy màu sắc cho Trung thu"
-              className="w-full h-64 object-cover"
+              fill
+              className="object-cover"
             />
           </div>
         </div>

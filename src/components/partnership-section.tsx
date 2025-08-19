@@ -1,3 +1,4 @@
+import Image from "next/image";
 export function PartnershipSection() {
   return (
     <section className="relative py-16 px-8 bg-gradient-to-br from-amber-50 to-orange-100">
@@ -19,11 +20,12 @@ export function PartnershipSection() {
         {/* Partnership content */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Hospital image */}
-          <div className="relative">
-            <img
+          <div className="relative h-80">
+            <Image
               src="/vietnamese-childrens-hospital-celebration.png"
               alt="Bệnh viện Nhi Đồng 1 với trang trí bóng bay"
-              className="w-full h-80 object-cover rounded-3xl shadow-lg"
+              fill
+              className="object-cover rounded-3xl shadow-lg"
             />
           </div>
 

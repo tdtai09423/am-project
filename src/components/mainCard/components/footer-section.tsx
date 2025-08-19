@@ -1,12 +1,14 @@
+import Image from "next/image";
 export function FooterSection() {
   return (
     <section className="relative py-16 px-4">
       {/* Background image placeholder */}
       <div className="absolute inset-0">
-        <img
+        <Image
           src="/vietnamese-mid-autumn-festival-gathering.png"
           alt="Community gathering"
-          className="w-full h-full object-cover opacity-80"
+          fill
+          className="object-cover opacity-80"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
       </div>

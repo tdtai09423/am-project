@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function CooperateWith() {
   return (
     <section className="bg-white py-16 px-6">
@@ -57,32 +58,36 @@ export default function CooperateWith() {
 
         {/* Image Grid */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-          <div className="aspect-square rounded-lg overflow-hidden">
-            <img
+          <div className="relative aspect-square rounded-lg overflow-hidden">
+            <Image
               src="/team-lantern-photo.png"
               alt="Team photo"
-              className="w-full h-full object-cover"
+              fill
+              className="object-cover"
             />
           </div>
-          <div className="aspect-square rounded-lg overflow-hidden">
-            <img
+          <div className="relative aspect-square rounded-lg overflow-hidden">
+            <Image
               src="/placeholder-ww5ic.png"
               alt="Art supplies"
-              className="w-full h-full object-cover"
+              fill
+              className="object-cover"
             />
           </div>
-          <div className="aspect-square rounded-lg overflow-hidden">
-            <img
+          <div className="relative aspect-square rounded-lg overflow-hidden">
+            <Image
               src="/handmade-crafts-art.png"
               alt="Handmade crafts"
-              className="w-full h-full object-cover"
+              fill
+              className="object-cover"
             />
           </div>
-          <div className="aspect-square rounded-lg overflow-hidden">
-            <img
+          <div className="relative aspect-square rounded-lg overflow-hidden">
+            <Image
               src="/colorful-paper-crafts-origami.png"
               alt="Paper crafts"
-              className="w-full h-full object-cover"
+              fill
+              className="object-cover"
             />
           </div>
         </div>

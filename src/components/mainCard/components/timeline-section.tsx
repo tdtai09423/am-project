@@ -1,3 +1,4 @@
+import Image from "next/image";
 export function TimelineSection() {
   const timelineItems = [
     {
@@ -48,10 +49,11 @@ export function TimelineSection() {
               {/* Image container */}
               <div className="relative flex-shrink-0">
                 <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden bg-gray-200 shadow-lg">
-                  <img
+                  <Image
                     src={item.image || "/placeholder.svg"}
                     alt={`Ấm Campaign ${item.year}`}
-                    className="w-full h-full object-cover"
+                    fill
+                    className="object-cover"
                   />
                 </div>
 

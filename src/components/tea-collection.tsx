@@ -1,3 +1,4 @@
+import Image from "next/image";
 export function TeaCollection() {
   return (
     <section className="py-16 px-4 bg-gradient-to-br from-amber-50 to-orange-100 relative">
@@ -15,10 +16,12 @@ export function TeaCollection() {
           {/* Trăng Tròn */}
           <div className="text-center">
             <div className="mb-8 flex justify-center">
-              <img
+              <Image
                 src="/placeholder-80amg.png"
                 alt="Ly trà Trăng Tròn"
-                className="w-64 h-80 object-contain"
+                width={256}
+                height={320}
+                className="object-contain"
               />
             </div>
             <h3 className="text-2xl font-bold text-gray-800 mb-2 font-sans">
@@ -30,10 +33,12 @@ export function TeaCollection() {
           {/* Trăng Ấm */}
           <div className="text-center">
             <div className="mb-8 flex justify-center">
-              <img
+              <Image
                 src="/placeholder-kk4rj.png"
                 alt="Ly trà Trăng Ấm"
-                className="w-64 h-80 object-contain"
+                width={256}
+                height={320}
+                className="object-contain"
               />
             </div>
             <h3 className="text-2xl font-bold text-gray-800 mb-2 font-sans">
